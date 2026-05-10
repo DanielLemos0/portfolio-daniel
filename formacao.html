@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formação Daniel</title>
+</head>
+<body>
+    <!-- Header do site, com o menu de navegação para as páginas "Sobre", "Formação", "Portfolio" e "Contato". -->
+    <header>
+        <div class="interface">
+            <!-- Logo do site, com o nome "Portfolio Daniel". -->
+            <div class="logo">
+                <a href="sobre.html">
+                    <h1><span class="white">Portfólio</span> Daniel</h1>
+                </a>
+            </div>
+            <!-- Menu de navegação para as páginas "Sobre", "Formação", "Portfolio" e "Contato". -->
+            <nav class="menu">
+                <ul>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="formacao.html">Formação</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contato.html"><span class="purple">Contato</span></a></li>
+                </ul>
+                <button id="tema" onclick="trocarTema()">🌙</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main do site, com a seção "Formações", onde o usuário pode ler uma breve descrição sobre as formações do autor do portfólio. -->
+    <main>
+        <section class="formacao">
+            <div class="interface">
+                <!-- Título "Minhas Formações", seguido pelas formações com uma breve descrição, contendo data e local de formação do autor do portfólio. -->
+                <h2>Minhas <span class="purple">Formações.</span></h2>
+                <div class="flex">
+                    <div class="img">
+                        <img src="imagens/brave_screenshot_colegioapice.com-removebg-preview.png" alt="Colégio Ápice" class="foto-formacao">
+                    </div>
+
+                    <div class="txt1">
+                        <h3>Colégio Ápice</h3>
+                        <span class="periodo">2012 - 2023</span>
+                        <p>Realizei meu Ensino Fundamental e Ensino Médio no Colégio Ápice, onde passei a maior parte da minha vida escolar. Foi uma época muito boa, com amizades que levo até hoje, que foram grandes incentivos para a escolha da minha área de formação.</p>
+                        <p class="local">Serra, ES</p>
+                    </div>
+                </div>
+
+                <hr class="divisor">
+
+                <div class="flex">
+                    <div class="img">
+                        <img src="imagens/grupo-uninter-logo-png_seeklogo-63778.png" alt="UNINTER" class="foto-formacao">
+                    </div>
+
+                    <div class="txt1">
+                        <h3>UNINTER</h3>
+                        <span class="periodo">2025 - atual</span>
+                        <p>Atualmente estou no segundo ano do curso de Ciências da Computação na UNINTER, curso que me possibilitou aprender muito sobre tecnologias e programaçao, o que me permitiu encontrar o caminho em que eu planejo seguir dentro da área.</p>
+                        <p class="local">Online</p>
+                    </div>
+                </div>
+
+                <!-- Botão "Entrar em Contato", que leva o usuário para a página de contato. -->
+                <div class="btn">
+                    <a href="contato.html">Entrar em Contato</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Todos os direitos reservados - Daniel Velasco Lemos</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

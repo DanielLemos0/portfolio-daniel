@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sobre Portfólio Daniel</title>
+</head>
+<body>
+    <!-- Header do site, com o menu de navegação para as páginas "Sobre", "Formação", "Portfolio" e "Contato". -->
+    <header>
+        <div class="interface">
+            <!-- Logo do site, com o nome "Portfolio Daniel". -->
+            <div class="logo">
+                <a href="sobre.html">
+                    <h1><span class="white">Portfólio</span> Daniel</h1>
+                </a>
+            </div>
+            <!-- Menu de navegação para as páginas "Sobre", "Formação", "Portfolio" e "Contato". -->
+            <nav class="menu">
+                <ul>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="formacao.html">Formação</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contato.html"><span class="purple">Contato</span></a></li>
+                </ul>
+                <button id="tema" onclick="trocarTema()">🌙</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main do site, com a seção "Sobre mim", onde o usuário pode ler uma breve descrição sobre o autor do portfólio. -->
+    <main>
+        <section class="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt1">
+                        <!-- Título "Sobre mim", seguido de um parágrafo com uma breve descrição sobre o autor do portfólio. -->
+                        <h2>Sobre mim<span class="purple">.</span></h2>
+                        <p>Meu nome é Daniel, sou um estudante de Ciências da Computação na UNINTER. Tenho 20 anos e gosto muito das áreas de tecnologia, principalmente realidade virtual e inteligência artificial. Este portfólio é uma forma de compartilhar meus projetos e experiências.</p>
+                        <p>Tenho interesse em aprender coisas novas e evoluir constantemente como desenvolvedor. Acredito que a tecnologia tem o poder de transformar vidas e estou comprometido em contribuir para esse processo de transformação.</p>
+                        <p>Meus hobbies são ler livros, ouvir músicas, tocar violão e jogar no computador. Cada um desses hobbies me ajudaram a encontrar o caminho que planejo seguir. Além de serem responsáveis por minha paixão pela tecnologia, eles me ajudaram a desenvolver habilidades importantes para o âmbito profissional.</p>
+
+                        <!-- Botão "Entrar em Contato", que leva o usuário para a página de contato. -->
+                        <div class="btn">
+                            <a href="contato.html">Entrar em Contato</a>
+                        </div>
+                    </div>
+
+                    <div class="img">
+                        <img src="imagens/nubelson-fernandes--Xqckh_XVU4-unsplash.jpg" alt="Foto de Perfil" class="foto-perfil">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Todos os direitos reservados - Daniel Velasco Lemos</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio Daniel</title>
+</head>
+<body>
+    <!-- Header do site, com o menu de navegação para as páginas "Sobre", "Formação", "Portfolio" e "Contato". -->
+    <header>
+        <div class="interface">
+            <!-- Logo do site, com o nome "Portfolio Daniel". -->
+            <div class="logo">
+                <a href="sobre.html">
+                    <h1><span class="white">Portfólio</span> Daniel</h1>
+                </a>
+            </div>
+            <!-- Menu de navegação para as páginas "Sobre", "Formação", "Portfolio" e "Contato". -->
+            <nav class="menu">
+                <ul>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="formacao.html">Formação</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contato.html"><span class="purple">Contato</span></a></li>
+                </ul>
+                <button id="tema" onclick="trocarTema()">🌙</button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+    <section class="portfolio">
+        <div class="interface">
+            <h2>Meu <span class="purple">Portfólio.</span></h2>
+            <div class="projetos">
+                <div class="card">
+                    <img src="imagens/portfolio1_screenshot.png" alt="Portfólio Pessoal">
+                    <div class="card-txt">
+                        <h3>Portfólio Pessoal</h3>
+                        <p>Site de portfólio desenvolvido com HTML, CSS e JavaScript, com modo claro e escuro.</p>
+                        <div class="tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="https://daniellemos0.github.io/portfolio-daniel/" target="_blank" class="link-projeto">Ver portfólio →</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Botão "Entrar em Contato", que leva o usuário para a página de contato. -->
+            <div class="btn">
+                <a href="contato.html">Entrar em Contato</a>
+            </div>
+
+        </div>
+    </section>
+    </main>
+
+    <footer>
+        <p>Todos os direitos reservados - Daniel Velasco Lemos</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contato Daniel</title>
+</head>
+<body>
+    <!-- Header do site, com o menu de navegação para as páginas "Sobre", "Formação", "Portfolio" e "Contato". -->
+    <header>
+        <div class="interface">
+            <!-- Logo do site, com o nome "Portfolio Daniel". -->
+            <div class="logo">
+                <a href="sobre.html">
+                    <h1><span class="white">Portfólio</span> Daniel</h1>
+                </a>
+            </div>
+            <!-- Menu de navegação para as páginas "Sobre", "Formação", "Portfolio" e "Contato". -->
+            <nav class="menu">
+                <ul>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="formacao.html">Formação</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contato.html"><span class="purple">Contato</span></a></li>
+                </ul>
+                <button id="tema" onclick="trocarTema()">🌙</button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+    <section class="contato">
+        <div class="interface">
+            <div class="txt-contato">
+                <h2>Entre em <span class="purple">Contato.</span></h2>
+                <p>velascolemosd@gmail.com</p>
+                <p>(27)99997-8487</p>
+            </div>
+
+            <form>
+                <input type="text" id="nome" placeholder="Seu nome">
+                <input type="text" id="email" placeholder="Seu email">
+                <textarea id="texto-mensagem" placeholder="Sua mensagem"></textarea>
+
+                <div class="btn-enviar">
+                    <input type="submit" value="Enviar mensagem">
+                </div>
+
+                <div id="mensagem-sucesso" class="mensagem-sucesso">
+                    ✅ Mensagem enviada com sucesso!
+                </div>
+                <div id="mensagem-erro-email" class="mensagem-erro">
+                    ❌ Por favor, insira um e-mail válido!
+                </div>
+                <div id="mensagem-erro-campos" class="mensagem-erro">
+                    ❌ Por favor, preencha todos os campos!
+                </div>
+            </form>
+        </div>
+    </section>
+    </main>
+
+    <footer>
+        <p>Todos os direitos reservados - Daniel Velasco Lemos</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
